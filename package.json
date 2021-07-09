@@ -1,0 +1,30 @@
+{
+  "name": "the-friendship-algorithm",
+  "version": "1.0.0",
+  "description": "an NodeJS-based enhanced version of Sheldon's algorithm",
+  "main": "sheldon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sheldon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiciAkk/The-Friendship-Algorithm.git"
+  },
+  "keywords": [
+    "big",
+    "bang",
+    "theory",
+    "sheldon",
+    "friendship"
+  ],
+  "author": "devpiciakk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiciAkk/The-Friendship-Algorithm/issues"
+  },
+  "homepage": "https://github.com/PiciAkk/The-Friendship-Algorithm#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
