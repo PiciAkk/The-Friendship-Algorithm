@@ -11,11 +11,11 @@ Hello! I'm PiciAkk, and I'm a big fan of [The Big Bang Theory](http://www.cbs.co
 Usage
 --------------
 
-Install the dependencies using:
+Install the dependencies using
 <code>
 npm install
-</code>
-And start the app using:
+</code>,
+and start the app using
 <code>
 npm start
 </code>
