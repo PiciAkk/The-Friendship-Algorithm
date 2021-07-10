@@ -32,7 +32,7 @@ var Sheldon = (function () {
                 console.log("Let's have " + popChoices + " together and begin our friendship!");
                 break;
             default:
-                console.log("I'm sorry , I don't do " + popChoices + ". What about a recreational activity? I bet we share some common interests!");
+                console.log("I'm sorry, I don't do " + popChoices + ". What about a recreational activity? I bet we share some common interests!");
                 shareInterest();
                 break;
             }
@@ -43,16 +43,16 @@ var Sheldon = (function () {
     };
 
     var shareInterest = function () {
-        //Since Sheldon will say no to everything, this object is absolutely false.
-        var sheldonsInterests = false;
+        var sheldonsInterests = ["programming", "paintballing", "coding", "science", "videogames", "videogaming", "playing halo"];
 
         //Create the replied interests and the array it will be assigned to.
         var yourInterests;
 
         //Sheldon won't agree with you, period.
-        if (yourInterests === sheldonsInterests) {
+        if (sheldonsInterests.includes(yourInterests)) {
             //This doesn't need to be here but wishful thinking doesn't hurt.
             console.log("Why don't we do that together? Let's partake in " + yourInterests + " and begin our friendship!");
+            return
         } else {
 
             //Create the array that the interests will be assigned to.
@@ -65,7 +65,12 @@ var Sheldon = (function () {
                 yourInterests = readline.question('Tell me an interest of yours!\n').toLowerCase()
                 //Update the resonse and store it into the collection
                 collectResponses.push(yourInterests);
-                console.log("Really, " + yourInterests + "?! I don't do " + yourInterests + ".");
+                if (sheldonsInterests.includes(yourInterests)){
+                  console.log("Why don't we do that together? Let's partake in " + yourInterests + " and begin our friendship!");
+                  return
+                } else {
+                  console.log("Really, " + yourInterests + "?! I don't do " + yourInterests + ".");
+                }
 
                 if (n > 6) {
                     //Randomly choose the least objectionable interest.
