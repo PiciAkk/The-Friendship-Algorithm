@@ -6,7 +6,7 @@ I'm a big fan of [The Big Bang Theory](http://www.cbs.com/shows/big_bang_theory/
 
 ## Fork:
 
-Hello! I'm PiciAkk, and I'm a big fan of [The Big Bang Theory](http://www.cbs.com/shows/big_bang_theory). One day I was reminded of Sheldon's friendship algorithm, and I looked at Google for images of the algorithm. After some search I found this [repository](https://github.com/marklreyes/The-Friendship-Algorithm), and I tought I could develop this code a little bit. Then I started to make it NodeJS-compatible.
+Hello! I'm PiciAkk, and I'm a big fan of [The Big Bang Theory](http://www.cbs.com/shows/big_bang_theory). One day I was reminded of Sheldon's friendship algorithm, and I looked at Google for images of the algorithm. After some search I found this [repository](https://github.com/marklreyes/The-Friendship-Algorithm), and I tought I could develop this code a little bit. Then I started to make it NodeJS-compatible. When I made it NodeJS-compatible, I started to update the code base. First, I added Sheldon's interests.
 
 Usage
 --------------
