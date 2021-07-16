@@ -20,6 +20,9 @@ and start the app using
 npm start
 </code>
 
+Try out online using REPL.it
+--------------
+[Online demo](https://replit.com/@PiciAkk/The-Friendship-Algorithm)
 Flowchart
 --------------
 ![Image of the algorithm](http://img2.wikia.nocookie.net/__cb20121011222658/bigbangtheory/images/f/ff/Freind1.jpg)
